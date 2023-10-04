@@ -17,17 +17,27 @@
       <h1>Lista de la compra</h1>
       <nav>
         <ul>
-          <li><a href="http://">Principal</a></li>
-          <li><a href="http://">Lista</a></li>
-          <li><a href="http://">Acerca de</a></li>
+          <li><a href="/index.html">Principal</a></li>
+          <li><a>Lista</a></li>
+          <li><a>Acerca de</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="sub-header">
         <img src="/images/icon.svg" alt="icono de quitar">
-        <span>2/3 comprados</span>
+        <span class="product-counter">2/3 comprados</span>
       </section>
+      <div class="add-article-container">
+        <h2>Añadir Artículo</h2>
+        <form class="form-container">
+          <label for="name">Nombre:</label>
+          <input id="name" type="text">
+          <label for="precio">Precio:</label>
+          <span><input id="precio" type="number">€</span>
+          <button type="button">Añadir</button>
+        </form>
+      </div>
     </main>
   </div>
 </body>
